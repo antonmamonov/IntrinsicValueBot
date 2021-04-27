@@ -29,6 +29,6 @@ func NewMongoWrapper(dbString string) *mongo.Database {
 		fmt.Println("Connected to MongoDB: " + dbString)
 	}
 
-	db := client.Database("cluep3")
+	db := client.Database("fin")
 	return db
 }
